@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: crm      # Nome do source
+    schema: public # Schema onde está a tabela raw_customers
+    tables:
+      - name: raw_customers
+        description: "Tabela bruta de clientes"
